@@ -1,0 +1,30 @@
+.contact-info {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+
+.navbar {
+ height: 5vh;
+  width: 100vw;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+@media (max-width: 500px) {
+  /* .TopBar img {
+    width: 2%; */
+    /* margin-left: 1vw; */
+  /* } */
+
+  html {
+    overflow-x: hidden;
+  }
+}
