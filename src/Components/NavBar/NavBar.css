@@ -1,3 +1,7 @@
+.NavBack  {
+  position: fixed;
+}
+
 .contact-info {
   display: flex;
   width: 50%;

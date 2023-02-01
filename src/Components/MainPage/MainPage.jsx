@@ -2,7 +2,7 @@ import './mainPage.css';
 
 const MainPage = () => {
   return ( 
-    <div className="container">
+    <div id='MainPage' className="container">
   <video className="bg-video" autoPlay loop muted>
     <source src="https://imgur.com/2cSaKIt.mp4" type="video/mp4" />
   </video>
