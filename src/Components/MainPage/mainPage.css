@@ -1,7 +1,7 @@
 .container {
   /* position: relative; */
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
 }
 
 .container > .bg-video {
@@ -10,7 +10,7 @@
 }
 
 .container > .text {
-  height: 100%;
+  height: 95vh;
   position: absolute;
   inset: 0;
   display: grid;

@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './ThisIsMe.css';
 import MyprofilePic from './Pictures/Federico_profile.jpeg';
 import Button from 'react-bootstrap/Button';
-import rflv from './Pictures/rflv.png';
-const ThisIsMe = () => {
+import resume from './Pictures/rflv.png';
 
+const ThisIsMe = () => {
 
   const initialVisibleAreas = {
     area1: true,
@@ -41,11 +41,10 @@ const ThisIsMe = () => {
           solving problems. I'm a fast learner and I'm always looking for new challenges.
         </p>
         <h2 className="titleMyStory"> Let's go back in time</h2>
-        <button className="btn btn-outline-success"></button>
         </>)}
       </section>
-        <div className='masterbtn'>
-        <div className='btnToggle'>
+        
+        
           <Button
             variant='primary'
             size='lg'
@@ -56,14 +55,15 @@ const ThisIsMe = () => {
           >
             My Story
           </Button>
-        </div>
-      </div>
+      
+      
       <section className='seccionToggle'>
         {visibleAreas['area2'] && (
           <div className='wrap' style={{ transition: 'right 1s ease-in-out' }}>
 
-        <img src={rflv} style={{height: '20%'}} alt="me" />
-    
+          <div className="overlay__container">
+          <img src={resume} className='wraps' alt="me" />
+         
 
           <button className="btn btn-outline-success"
               onClick={(e) => {
@@ -72,6 +72,7 @@ const ThisIsMe = () => {
             >
               Close it
             </button>
+            </div>
           </div>
         )}
       </section>
