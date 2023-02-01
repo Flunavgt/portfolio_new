@@ -4,40 +4,40 @@ import Formula from'./Images/Formula1.png';
 import BudgetApp from './Images/BudgetApp.png';
 import Catalog from './Images/Catalog.png';
 import Oceans from './Images/Oceans.png';
+import Recipe from './Images/Recipes.png';
 
 console.clear();
 
 const slides = [
   {
     title: "Formula 1",
-    subtitle: "Created",
+    subtitle: "Stats and info",
     btnHub: "https://github.com/Flunavgt/formula1_capstone", 
     image: Formula
   },
   {
-    title: "BD 506",
-    subtitle: "Digital",
-    description: "Compacto y robusto",
+    title: "Moon App",
+    subtitle: "Budget oriented",
+    btnHub: "https://github.com/Flunavgt/budget-app", 
     image: BudgetApp
   },
   {
-    title: "HP 786",
-    subtitle: "Digital",
-    description: "implementar sistema",
+    title: "Catalog of my things",
+    subtitle: "Inventory",
+    btnHub: "https://github.com/Flunavgt/catalog_of_my_things", 
     image: Catalog
   },
   {
-    title: "PNC 560",
-    subtitle: "Digital",
-    description: "A piece of heaven",
+    title: "Oceans and Trails",
+    subtitle: "Reserve a cruise",
+    btnHub: "https://github.com/Flunavgt/oceans_and_trails_frontend", 
     image: Oceans
   },
   {
-    title: "TC 518",
-    subtitle: "Portátil",
-    description: "Se destaca por su portabilidad",
-    image:
-      "https://images.hytera.us/images/tc5182.png?auto=compress%2Cformat&fit=clip&fm=webp&q=80&w=992&webPQuality=70&s=70eefabe04701da55e3f3717aa99f8e8"
+    title: "Recipes",
+    subtitle: "Kitchen utilities",
+    btnHub: "https://github.com/Flunavgt/recipe_app", 
+    image: Recipe
   },
 ];
 
@@ -132,9 +132,7 @@ function Slide({ slide, offset }) {
         <div className="slideContentInner">
           <h2 className="slideTitle">{slide.title}</h2>
           <h3 className="slideSubtitle">{slide.subtitle}</h3>
-          <a href={slide.btnHub} className='btn-primary btn' target='_blank' rel='noreferrer'>btn</a>
-          {/* <Button className="btnhub" target="_blank" rel="noreferrer"
-          href={`url('${slide.btbHub}')`}>Repo</Button> */}
+          <a href={slide.btnHub} className='btn-primary btn' target='_blank' rel='noreferrer'>GitHub</a>
         </div>
       </div>
     </div>
