@@ -40,7 +40,8 @@ const ThisIsMe = () => {
           from scratch. I'm a self-taught developer with a passion for learning new technologies and
           solving problems. I'm a fast learner and I'm always looking for new challenges.
         </p>
-        <h3 > Let's go back in time....</h3>
+        <p>To understand the future......</p>
+        <p > Let's go back in time!</p>
         </>)}
       </section>
         

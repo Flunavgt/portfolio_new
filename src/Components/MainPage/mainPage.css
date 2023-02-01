@@ -13,6 +13,7 @@
 
 #MainPage > .text {
   height: 100vh;
+  width: 100vw;
   position: absolute;
   inset: 0;
   display: grid;

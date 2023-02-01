@@ -36,6 +36,9 @@
     width: 2%; */
     /* margin-left: 1vw; */
   /* } */
+  .contact-info p {
+    display: none;
+  }
 
   html {
     overflow-x: hidden;

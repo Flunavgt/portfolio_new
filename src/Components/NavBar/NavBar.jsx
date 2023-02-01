@@ -54,7 +54,7 @@ const NavBar = () => {
                 <NavDropdown.Item href='#ThisIsMe'>
                   A little bit about me
                 </NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.2'>
+                <NavDropdown.Item href='#Projects'>
                   Projects
                 </NavDropdown.Item>
                 <NavDropdown.Item href='#action/3.3'>
