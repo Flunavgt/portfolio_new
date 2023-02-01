@@ -8,17 +8,20 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import "swiper/css/bundle";
 import NavBar from './Components/NavBar/NavBar';
+import { BrowserRouter } from 'react-router-dom';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
+  {/* <React.StrictMode> */}
     {/* <Provider store={store}> */}
       <NavBar sticky='top' />
       <App />
     {/* </Provider> */}
-  </React.StrictMode>
+  {/* </React.StrictMode> */}
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
