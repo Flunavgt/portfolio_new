@@ -34,13 +34,13 @@ const ThisIsMe = () => {
       <section className='seccionToggle1'>
         {visibleAreas['area1'] && (
         <>
-        <p>In an ordinary world, You need an extraordinary developer</p>
-        <p></p>
+        <p className="titleMystory1">In an ordinary world, </p>
+        <h2 className="titleMyStory">You need an extraordinary developer</h2>
         <p>I'm a software engineer capable of building, desing and develop your digital requirements
           from scratch. I'm a self-taught developer with a passion for learning new technologies and
           solving problems. I'm a fast learner and I'm always looking for new challenges.
         </p>
-        <h2 className="titleMyStory"> Let's go back in time</h2>
+        <h3 > Let's go back in time....</h3>
         </>)}
       </section>
         
@@ -62,9 +62,10 @@ const ThisIsMe = () => {
           <div className='wrap' style={{ transition: 'right 1s ease-in-out' }}>
 
           <div className="overlay__container">
-          <img src={resume} className='wraps' alt="me" />
-         
+          <p style={{color: "black"}}>click on the image to access PDF</p>
 
+          <a href='https://docs.google.com/document/d/1BqW91JFf5PU2M2q2C9yBZyYXI-vtTbKesngZV8YiN3k/edit?usp=sharing'
+          target="_blank" rel="noreferrer"> <img src={resume} className='wraps' alt="me" /></a>
           <button className="btn btn-outline-success"
               onClick={(e) => {
                 hideInfo(e, 'area2');

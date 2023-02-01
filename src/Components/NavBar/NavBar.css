@@ -1,13 +1,16 @@
 .NavBack  {
   position: fixed;
+  width: 100vw;
+  padding: 0 !important;
 }
 
 .contact-info {
   display: flex;
-  width: 50%;
+  width: 70%;
   justify-content: space-between;
   padding: 0 5vw;
 }
+
 
 .navbar {
  height: 5vh;
@@ -24,6 +27,8 @@
 
 .TopBar {
   height: 5vh;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 @media (max-width: 500px) {

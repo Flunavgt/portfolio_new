@@ -17,6 +17,8 @@ const NavBar = () => {
         variant='dark'
       >
         <div className='contact-info'>
+          <p>Federico Luna</p>
+          <div>
         <FaWhatsapp color = 'green' fontSize='1.5rem' />
         <a
           href='https://api.whatsapp.com/send?phone=50258056166'
@@ -25,11 +27,15 @@ const NavBar = () => {
         >
           +502 5805-6166
         </a>
+        </div>
+        <div>
         <FaEnvelope color = 'white' fontSize='1.5rem'/>
         <a href='mailto:fluna1973@hotmail.com' target='_blank' rel='noreferrer'>
           Fluna
         </a>
+        </div>
       </div>
+      <div>
         <Container className='TopBar'>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
@@ -67,6 +73,7 @@ const NavBar = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
+        </div>
       </Navbar>
     </>
   );
