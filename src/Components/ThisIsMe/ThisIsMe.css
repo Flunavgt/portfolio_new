@@ -111,4 +111,8 @@
   .myStory {
     width: 80%;
   }
+
+  .wraps {
+    width: 85vw;
+  }
 }
