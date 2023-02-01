@@ -6,6 +6,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import "swiper/css/bundle";
 import NavBar from './Components/NavBar/NavBar';
 
 const container = document.getElementById('root');
