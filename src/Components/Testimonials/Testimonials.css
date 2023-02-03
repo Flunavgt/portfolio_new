@@ -6,6 +6,10 @@
   /* border: 1px solid white; */
 }
 
+#Testimonials {
+  margin-bottom: 30vh;
+}
+
 .pepitaPerez {
   display: flex;
   width: 30vw;

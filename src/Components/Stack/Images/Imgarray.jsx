@@ -1,9 +1,9 @@
-import img1 from './Projects_on.png';
-import img2 from './Projects_on.png';
-import img3 from './Projects_on.png';
-import img4 from './Projects_on.png';
-import img5 from './Projects_on.png';
-import img6 from './Projects_on.png';
+import img1 from './ppp.png';
+import img2 from './ppp2.png';
+import img3 from './ppp.png';
+import img4 from './ppp.png';
+import img5 from './ppp.png';
+import img6 from './ppp.png';
 
 const radioImgs = [
   img1,
