@@ -33,7 +33,7 @@ const Testimonials = () => {
         <div data-aos='fade-down'>
           <div className='pepitaPerez'>
             <img src={ruby} alt='ruby' />
-            <h3>Ruby</h3>
+            <h3>Ruby.</h3>
           </div>
         </div>
         <div data-aos='zoom-out-down'>
