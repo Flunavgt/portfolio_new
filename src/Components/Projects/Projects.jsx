@@ -132,9 +132,12 @@ function Slide({ slide, offset }) {
         <div className="slideContentInner">
           <h2 className="slideTitle">{slide.title}</h2>
           <h3 className="slideSubtitle">{slide.subtitle}</h3>
-          <a href={slide.btnHub} className='btn-primary btn' target='_blank' rel='noreferrer'>GitHub</a>
+          {/* <a href={slide.btnHub} className='btn-primary btn' target='_blank' rel='noreferrer'>GitHub</a> */}
         </div>
+        {/* <a href={slide.btnHub} className='btn-primary btn' target='_blank' rel='noreferrer'>GitHub</a> */}
       </div>
+      <a href={slide.btnHub} id='githubBtn' className='btn-primary btn' target='_blank' rel='noreferrer'>GitHub</a>
+
     </div>
   );
 }

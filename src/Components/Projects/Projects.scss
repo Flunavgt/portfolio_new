@@ -27,12 +27,12 @@
     appearance: none;
     background: transparent;
     border: none;
-    color: white;
+    color: rgb(103, 242, 16);
     position: absolute;
     font-size: 5rem;
     width: 5rem;
     height: 5rem;
-    top: -15vh;
+    top: 70vh;
     transition: opacity 0.3s;
     opacity: 0.7;
     z-index: 5;
@@ -73,7 +73,14 @@
     rotateY(calc(-45deg * var(--dir)));
 }
 
+#githubBtn {
+margin-inline: 10vw;
+background-color: green;
+}
+
 .slideContentInner {
+  margin-top: 70vh;
+  text-align: center;
   transform-style: preserve-3d;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
@@ -142,5 +149,26 @@
       transform: perspective(1000px) rotateY(calc(var(--x) * 45deg))
         rotateX(calc(var(--y) * -45deg));
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .slides > button {
+    font-size: 3rem;
+    width: 1rem;
+    top: 35vh;
+  }
+
+  .slides {
+    padding-bottom: 35vh;
+  }
+
+  .slideSubtitle,
+  .slideTitle {
+    font-size: 0.5rem;
+  }
+
+  .slideContentInner a {
+    display: none;
   }
 }

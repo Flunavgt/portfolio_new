@@ -58,10 +58,10 @@ const NavBar = () => {
                   Projects
                 </NavDropdown.Item>
                 <NavDropdown.Item href='#Testimonials'>
-                  Testimonials
+                  Stack
                 </NavDropdown.Item>
                 <NavDropdown.Item href='#Stack'>
-                  Stack
+                  Testimonials
                 </NavDropdown.Item>
                 <NavDropdown.Item href='#action/3.4'>
                   Skills
