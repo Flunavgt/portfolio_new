@@ -57,13 +57,16 @@ const NavBar = () => {
                 <NavDropdown.Item href='#Projects'>
                   Projects
                 </NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.3'>
+                <NavDropdown.Item href='#Testimonials'>
+                  Testimonials
+                </NavDropdown.Item>
+                <NavDropdown.Item href='#Stack'>
                   Stack
                 </NavDropdown.Item>
                 <NavDropdown.Item href='#action/3.4'>
                   Skills
                 </NavDropdown.Item>
-                <NavDropdown.Item href='https://github.com/Flunavgt'>
+                <NavDropdown.Item href='https://github.com/Flunavgt' target="_blank" rel="noreferrer">
                   GitHub
                 </NavDropdown.Item>
                 <NavDropdown.Item href='#action/3.6'>

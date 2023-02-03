@@ -16,7 +16,7 @@ const Stack = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <>
+    <div  id="Stack">
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -52,7 +52,7 @@ const Stack = () => {
         )
       })}
       </Swiper>
-    </>
+    </div>
   );
 }
 
