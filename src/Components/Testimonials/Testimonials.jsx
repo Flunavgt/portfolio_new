@@ -10,6 +10,7 @@ import redux from './logos/redux.png';
 import bootstrap from './logos/bootstrap.png';
 import htmlLogo from './logos/htmlLogo.png';
 import css3 from './logos/css3.png';
+import git from './logos/git.png';
 
 const Testimonials = () => {
   return (
@@ -54,10 +55,6 @@ const Testimonials = () => {
             <h3>PostgreSQL</h3>
           </div>
         </div>
-        {/* <div data-aos="fade-down"><div className='pepitaPerez'>
-        <img src={ruby} alt="ruby" />
-        <h3>this is Ruby</h3>
-        </div></div> */}
         <div data-aos='fade-in'>
           <div className='pepitaPerez'>
             <img src={webpack} alt='ruby' />
@@ -82,13 +79,13 @@ const Testimonials = () => {
             <h3>CSS</h3>
           </div>
         </div>
-        {/* <div data-aos='fade-up'>
+        <div data-aos='fade-up'>
           <div className='pepitaPerez'>
-            <img src={ruby} alt='ruby' />
-            <h3>this is Ruby</h3>
+            <img src={git} alt='ruby' />
+            <h3>Git</h3>
           </div>
         </div>
-        <div data-aos='fade-down'>
+        {/* <div data-aos='fade-down'>
           <div className='pepitaPerez'>
             <img src={ruby} alt='ruby' />
             <h3>this is Ruby</h3>
