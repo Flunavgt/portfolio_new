@@ -66,7 +66,7 @@ const ThisIsMe = () => {
           <p style={{color: "black"}}>click on the image to access PDF</p>
 
           <a href='https://docs.google.com/document/d/1BqW91JFf5PU2M2q2C9yBZyYXI-vtTbKesngZV8YiN3k/edit?usp=sharing'
-          target="_blank" rel="noreferrer"> <img src={resume} className='wraps' alt="me" /></a>
+          target="_blank" rel="noreferrer" download> <img src={resume} className='wraps' alt="me" /></a>
           <button className="btn btn-outline-success"
               onClick={(e) => {
                 hideInfo(e, 'area2');
