@@ -1,13 +1,13 @@
 .js-scroll-counter {
-  height: 25vh;
-  padding-top:10vh ;
-  border: 1px solid white;
+  height: 10vh;
+  padding-top:5vh ;
+  /* border: 1px solid white; */
 }
 
 .pepitaPerez {
   display: flex;
   width: 50vw;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-inline: 25vw;
   margin-top: 15vh;
   align-items: center;
