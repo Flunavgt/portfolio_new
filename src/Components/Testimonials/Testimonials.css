@@ -21,6 +21,15 @@
   /* margin: 5vh; */
 }
 
+@media (max-width: 768px) {
+  .js-scroll-counter {
+    height: 15vh;
+    padding-top:10vh ;
+    /* border: 1px solid white; */
+  }
+  
+}
+
 /* .scroll-counter {
   position: fixed;
   top: 0;
