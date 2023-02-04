@@ -1,4 +1,9 @@
 import { useForm, ValidationError } from '@formspree/react';
+import { GoLocation } from "react-icons/go";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter} from "react-icons/fa";
+import { FaYoutube} from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import './contactForm.css'
 
 export default function ContactForm() {
@@ -28,6 +33,18 @@ export default function ContactForm() {
       </button>
       <ValidationError errors={state.errors} />
     </form>
+    <div className='social'>
+        <h2>Contact Information</h2>
+        <div>
+          <p><GoLocation /> Guatemala, Guatemala City, Central America</p>
+          <div className='sNetworks'>
+            <FaFacebookF />
+            <FaTwitter />
+            <FaYoutube />
+            <FaInstagram />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

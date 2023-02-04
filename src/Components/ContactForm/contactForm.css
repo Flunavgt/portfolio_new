@@ -6,7 +6,7 @@
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 40px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 } 
 
 .form_format {
@@ -14,11 +14,52 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 70vw;
+}
+
+.form_format input, textarea {
   width: 50%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 10px;
 }
 
 .contact-form label {
   color: white;
   font-size: 1.5rem;
   margin-bottom: 10px;
+}
+
+.form_format button {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social {
+  background-color: black;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.social h2 {
+  font-size: calc(10px + 3vmin);
+  padding-bottom: 1rem;
+}
+
+
+
+.sNetworks {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  font-size: 2rem;
 }
