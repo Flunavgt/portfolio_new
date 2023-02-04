@@ -10,6 +10,7 @@ import Stack from './Components/Stack/Stack';
 import Testimonials from './Components/Testimonials/Testimonials';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ContactForm from './Components/ContactForm/ContactForm';
 
 function App() {
   // AOS.init({
@@ -32,7 +33,7 @@ function App() {
         <Projects />
         <Testimonials />
         <Stack />
-   
+        <ContactForm />
     </div>
   );
 }
