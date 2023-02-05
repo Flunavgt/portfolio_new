@@ -1,9 +1,9 @@
 import { useForm, ValidationError } from '@formspree/react';
 import { GoLocation } from "react-icons/go";
-import { FaFacebookF } from "react-icons/fa";
+import { FaMedium } from "react-icons/fa";
 import { FaTwitter} from "react-icons/fa";
-import { FaYoutube} from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin} from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import './contactForm.css'
 
 export default function ContactForm() {
@@ -15,6 +15,7 @@ export default function ContactForm() {
 
   return (
     <div className="contact-form" id='contact-form_bottom'>
+      <h1> Describe your project needs:</h1>
     <form method="POST" onSubmit={handleSubmit} className="form_format">
       <label htmlFor="name">Full Name</label>
       <input id="name" type="text" name="name" required />
@@ -38,10 +39,10 @@ export default function ContactForm() {
         <div>
           <p><GoLocation /> Guatemala, Guatemala City, Central America</p>
           <div className='sNetworks'>
-            <FaFacebookF />
-            <FaTwitter />
-            <FaYoutube />
-            <FaInstagram />
+            <a href='https://medium.com/@fluna1973'> <FaMedium /></a>
+            <a href='https://twitter.com/flunavgt'><FaTwitter /></a>
+            <a href='https://www.linkedin.com/in/federico-luna-gt/'><FaLinkedin /></a>
+            <a href='https://github.com/Flunavgt'><FaGithub /></a>
           </div>
         </div>
       </div>

@@ -63,3 +63,7 @@
   justify-content: space-between;
   font-size: 2rem;
 }
+
+.sNetworks a {
+  color: white;
+}
