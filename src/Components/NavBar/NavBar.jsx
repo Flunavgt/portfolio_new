@@ -43,13 +43,14 @@ const NavBar = () => {
               <Nav.Link className='links' href='#MainPage'>
                 Home
               </Nav.Link>
-              <Nav.Link className='links' href='#ThisIsMe'>
+              {/* <Nav.Link className='links' href='#ThisIsMe'>
                 This is me
-              </Nav.Link>
+              </Nav.Link> */}
               <NavDropdown
                 className='links'
                 title='Information'
                 id='collasible-nav-dropdown'
+                drop='start'
               >
                 <NavDropdown.Item href='#ThisIsMe'>
                   A little bit about me
@@ -63,13 +64,13 @@ const NavBar = () => {
                 <NavDropdown.Item href='#Stack'>
                   Testimonials
                 </NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.4'>
+                {/* <NavDropdown.Item href='#action/3.4'>
                   Skills
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
                 <NavDropdown.Item href='https://github.com/Flunavgt' target="_blank" rel="noreferrer">
                   GitHub
                 </NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.6'>
+                <NavDropdown.Item href='#contact-form_bottom'>
                   Contact
                 </NavDropdown.Item>
               </NavDropdown>

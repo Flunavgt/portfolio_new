@@ -14,7 +14,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id='contact-form_bottom'>
     <form method="POST" onSubmit={handleSubmit} className="form_format">
       <label htmlFor="name">Full Name</label>
       <input id="name" type="text" name="name" required />
