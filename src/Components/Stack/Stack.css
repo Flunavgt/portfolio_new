@@ -123,6 +123,21 @@ body {
   width: 80vw;
 } 
 
+.testimonialImg {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 2vw 0 0;
+}
+
+.coworkers {
+  border: 2px solid white;
+  width: 25% !important;
+  /* height: 50%; */
+  border-radius: 50%;
+}
+
 .linktestimonialText h2{
   color: rgb(5, 247, 66);
 }

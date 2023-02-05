@@ -69,8 +69,9 @@ const Stack = () => {
                     type='video/mp4'
                   />
                 </video>
-                <img src={img.pic} style={{borderRadius: '50%', zIndex: '30'}} alt=''></img>
-
+                <div className="testimonialImg">
+                <img src={img.pic} style={{borderRadius: '50%', zIndex: '30'}} className="coworkers" alt=''></img>
+                </div>
                 {/* <img src={img} alt=""></img> */}
             </SwiperSlide>
           );
