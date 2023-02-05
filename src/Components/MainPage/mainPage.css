@@ -28,3 +28,21 @@
   user-select: none;
   text-shadow: white 5px 0 0px;
 }
+
+.textTop {
+  margin-top: 4vh;
+}
+
+.textBottom {
+  margin-bottom: 4vh;
+}
+
+@media (max-width: 764px) {
+  .textTop {
+    margin-top: 35vh;
+  }
+
+  .textBottom {
+    margin-bottom: 55vh;
+  }
+}

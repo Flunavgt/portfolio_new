@@ -128,12 +128,12 @@ body {
   height: 12vw;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 2vw 0 0;
+  /* margin: 0 2vw 0 0; */
 }
 
 .coworkers {
   border: 2px solid white;
-  width: 25% !important;
+  width: 35% !important;
   /* height: 50%; */
   border-radius: 50%;
 }
@@ -152,5 +152,12 @@ body {
     font-size: 5vw;
     color: aliceblue;
     text-align: justify;
+  }
+
+  .testimonialImg {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 50%;
+    object-fit: cover;
   }
 }
