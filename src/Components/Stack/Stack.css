@@ -101,3 +101,41 @@ body {
   display: flex !important;
   flex-direction: column !important;
 }
+
+/* .linktestimonial {
+  width: 90vw;
+} */
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.linktestimonialslide {
+  display: flex;
+  width: 80vw;
+} 
+
+.linktestimonialText h2{
+  color: rgb(5, 247, 66);
+}
+
+.linktestimonialText h3 {
+  color: aliceblue;
+}
+
+
+@media (max-width: 764px) {
+  .linktestimonialText h3 {
+    font-size: 5vw;
+    color: aliceblue;
+    text-align: justify;
+  }
+}
