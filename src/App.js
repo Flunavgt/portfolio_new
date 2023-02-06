@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import NavBar from './Components/NavBar/NavBar';
 import { useEffect } from 'react';
 import MainPage from './Components/MainPage/MainPage';
 import ThisIsMe from './Components/ThisIsMe/ThisIsMe';
@@ -13,21 +12,15 @@ import 'aos/dist/aos.css';
 import ContactForm from './Components/ContactForm/ContactForm';
 
 function App() {
-  // AOS.init({
-  //   useClassNames: true,
-  // });
   useEffect(() => {
     AOS.init({
-      // easing: 'ease',
       duration: 1200,
       delay: 200,
       mirror: true,
     });
   }, [])
   return (
-    <div className="app">
-      {/* <NavBar /> */}
-   
+    <div className="app">   
         <MainPage />
         <ThisIsMe />
         <Projects />

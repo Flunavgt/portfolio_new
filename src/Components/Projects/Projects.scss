@@ -6,7 +6,6 @@
 
 }
 
-
 .slides {
   display: flex;
   justify-content: center;
@@ -54,7 +53,6 @@
   }
 }
 
-
 .slideContent {
   padding-top: 50px;
   width: 30vw;
@@ -67,14 +65,14 @@
   border-radius: 15px;
   display: grid;
   align-content: center;
-
   transform-style: preserve-3d;
   transform: perspective(1000px) translateX(calc(100% * var(--offset)))
     rotateY(calc(-45deg * var(--dir)));
 }
 
 #githubBtn {
-margin-inline: 10vw;
+margin-inline: 13.2vw;
+margin-top: 1rem;
 background-color: green;
 }
 
@@ -85,7 +83,7 @@ background-color: green;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
   color: rgb(177, 173, 173);
-  text-shadow: 0 0.1rem 1rem rgb(13, 12, 12);
+  text-shadow: 0 0.1rem 1rem rgb(251, 248, 248);
   opacity: 0;
 
   .slideSubtitle,
@@ -107,22 +105,6 @@ background-color: green;
     letter-spacing: 0.2ch;
   }
 }
-
-// .slideBackground {
-//   position: fixed;
-//   top: 0;
-//   left: -10%;
-//   right: -10%;
-//   bottom: 0;
-//   // background-size: cover;
-//   // background-position: center center;
-//   z-index: -1;
-//   opacity: 0;
-//   transition: opacity 0.3s linear, transform 0.3s ease-in-out;
-//   pointer-events: none;
-
-//   transform: translateX(calc(10% * var(--dir)));
-// }
 
 .slide[data-active] {
   z-index: 2;

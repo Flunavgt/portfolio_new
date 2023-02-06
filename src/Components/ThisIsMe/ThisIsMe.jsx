@@ -26,7 +26,6 @@ const ThisIsMe = () => {
   return (
     <div id='ThisIsMe' className='meGeneral'>
       <div className='myPicture'>
-        {/* <img src={MyprofilePic} style={{borderRadius: '50%'}} alt="me" /> */}
         <div
           className='card'
           style={{ width: '95%', backgroundColor: 'black' }}
@@ -40,13 +39,11 @@ const ThisIsMe = () => {
           <div className='card-body'>
             <h5 className='card-title'>To understand the Future....</h5>
             <p className='card-text'>We must go back in time.</p>
-            {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
             <Button
               variant='primary'
               size='lg'
               onClick={(e) => {
                 showInfo(e, 'area2');
-                // hideInfo(e, 'area1');
               }}
             >
               My Story
@@ -86,17 +83,10 @@ const ThisIsMe = () => {
                   click on the image to Download
                 </p>
 
-                {/* <a
-                  href='https://docs.google.com/document/d/1BqW91JFf5PU2M2q2C9yBZyYXI-vtTbKesngZV8YiN3k/edit?usp=sharing'
-                  target='_blank'
-                  rel='noreferrer'
-                  download
-                > */}
                 <Link to="/files/Resume_Federico_Luna_Vannini.pdf" target="_blank" download>
                   {' '}
                   <img src={resume} className='wraps' alt='me' />
                   </Link>
-                {/* </a> */}
                 <button
                   className='btn btn-outline-success'
                   onClick={(e) => {

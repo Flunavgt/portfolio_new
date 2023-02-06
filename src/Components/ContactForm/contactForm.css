@@ -6,7 +6,6 @@
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 40px;
-  /* border: 1px solid white; */
 } 
 
 .contact-form h1 {
@@ -58,8 +57,6 @@
   font-size: calc(10px + 3vmin);
   padding-bottom: 1rem;
 }
-
-
 
 .sNetworks {
   display: flex;
