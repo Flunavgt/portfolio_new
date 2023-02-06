@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ThisIsMe.css';
+import { Link } from 'react-router-dom';
 import MyprofilePic from './Pictures/Federico_profile.jpeg';
 import Button from 'react-bootstrap/Button';
 import resume from './Pictures/rflv.png';
@@ -82,18 +83,20 @@ const ThisIsMe = () => {
             >
               <div className='overlay__container'>
                 <p style={{ color: 'black', backgroundColor: 'white' }}>
-                  click on the image to access PDF
+                  click on the image to Download
                 </p>
 
-                <a
+                {/* <a
                   href='https://docs.google.com/document/d/1BqW91JFf5PU2M2q2C9yBZyYXI-vtTbKesngZV8YiN3k/edit?usp=sharing'
                   target='_blank'
                   rel='noreferrer'
                   download
-                >
+                > */}
+                <Link to="/files/Resume_Federico_Luna_Vannini.pdf" target="_blank" download>
                   {' '}
                   <img src={resume} className='wraps' alt='me' />
-                </a>
+                  </Link>
+                {/* </a> */}
                 <button
                   className='btn btn-outline-success'
                   onClick={(e) => {
