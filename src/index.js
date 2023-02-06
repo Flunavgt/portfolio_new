@@ -15,12 +15,8 @@ const root = createRoot(container);
 
 root.render(
   <BrowserRouter>
-  {/* <React.StrictMode> */}
-    {/* <Provider store={store}> */}
       <NavBar sticky='top' />
       <App />
-    {/* </Provider> */}
-  {/* </React.StrictMode> */}
   </BrowserRouter>
 );
 

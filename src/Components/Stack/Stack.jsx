@@ -32,21 +32,17 @@ const Stack = () => {
             <SwiperSlide key={i}>
               <video id='background-video' autoPlay loop muted>
                 <source
-                  src='https://video.wixstatic.com/video/11062b_c18db2b1461b46f2ad31bae61009fee1/1080p/mp4/file.mp4'
+                  src='/files/file.mp4'
                   type='video/mp4'
                 />
               </video>
               <div className='linktestimonialslide'>
-                {/* <div className='linktestimonial'>
-                  <img src={img.pic} alt=''></img>
-                </div> */}
                 <div className='linktestimonialText'>
                   <h2>{img.name}</h2>
                   <h3>{img.desclink}</h3>
                 </div>
               </div>
 
-              {/* <img src={img} alt=""></img> */}
             </SwiperSlide>
           );
         })}
@@ -72,7 +68,6 @@ const Stack = () => {
                 <div className="testimonialImg">
                 <img src={img.pic} style={{borderRadius: '50%', zIndex: '30'}} className="coworkers" alt=''></img>
                 </div>
-                {/* <img src={img} alt=""></img> */}
             </SwiperSlide>
           );
         })}

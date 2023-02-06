@@ -43,9 +43,6 @@ const NavBar = () => {
               <Nav.Link className='links' href='#MainPage'>
                 Home
               </Nav.Link>
-              {/* <Nav.Link className='links' href='#ThisIsMe'>
-                This is me
-              </Nav.Link> */}
               <NavDropdown
                 className='links'
                 title='Information'
@@ -64,9 +61,6 @@ const NavBar = () => {
                 <NavDropdown.Item href='#Stack'>
                   Testimonials
                 </NavDropdown.Item>
-                {/* <NavDropdown.Item href='#action/3.4'>
-                  Skills
-                </NavDropdown.Item> */}
                 <NavDropdown.Item href='https://github.com/Flunavgt' target="_blank" rel="noreferrer">
                   GitHub
                 </NavDropdown.Item>

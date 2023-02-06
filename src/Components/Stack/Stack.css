@@ -55,7 +55,6 @@ body {
   height: 80vh !important;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: red; */
 }
 
 .swiper-slide {
@@ -66,16 +65,12 @@ body {
 .mySwiper2 {
   height: 100%;
   width: 100%;
-  /* border: 5px solid red; */
 }
 
 .mySwiper {
   height: 25vh !important;
   box-sizing: border-box;
   padding: 10px 0;
-  /* background-color: red !important; */
-  /* border: 5px solid rgb(218, 7, 201); */
-
 }
 
 .mySwiper .swiper-slide {
@@ -94,17 +89,12 @@ body {
   height: 100% !important;
   object-fit: cover;
   background-color:black;
-  /* border: 5px solid blue; */
 }
 
 .card {
   display: flex !important;
   flex-direction: column !important;
 }
-
-/* .linktestimonial {
-  width: 90vw;
-} */
 
 #background-video {
   width: 100vw;
@@ -128,13 +118,11 @@ body {
   height: 12vw;
   border-radius: 50%;
   object-fit: cover;
-  /* margin: 0 2vw 0 0; */
 }
 
 .coworkers {
   border: 2px solid white;
   width: 35% !important;
-  /* height: 50%; */
   border-radius: 50%;
 }
 
