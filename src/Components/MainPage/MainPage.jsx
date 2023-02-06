@@ -6,7 +6,7 @@ const MainPage = () => {
   <video className="bg-video" autoPlay loop muted>
     <source src="https://imgur.com/2cSaKIt.mp4" type="video/mp4" />
   </video>
-  <p className="text"> Federico <span> Luna</span><span>Full Stack Dev </span></p>
+  <p className="text"> <span className='textTop'>Federico</span> <span> Luna</span><span className='textBottom'>Full Stack Dev </span></p>
   
 
 </div>
