@@ -71,7 +71,8 @@
 }
 
 #githubBtn {
-margin-inline: 10vw;
+margin-inline: 13.2vw;
+margin-top: 1rem;
 background-color: green;
 }
 
@@ -82,7 +83,7 @@ background-color: green;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
   color: rgb(177, 173, 173);
-  text-shadow: 0 0.1rem 1rem rgb(13, 12, 12);
+  text-shadow: 0 0.1rem 1rem rgb(251, 248, 248);
   opacity: 0;
 
   .slideSubtitle,
